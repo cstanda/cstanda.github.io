@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/carousel/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chris Standa - Computer and Software Engineer.">
+    <meta name="author" content="Chris Standa, Mobile +254-716-983-138, e-mail via contact form on the website">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+    <title>Chris Standa | Computer and Software Engineer</title>
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+  <style id="holderjs-style" type="text/css"></style>
+<!-- Image slideshow -->
+<script>
+// =======================================
+// set the following variables
+// =======================================
+
+// Set speed (milliseconds)
+var speed = 5000
+
+// Specify the image files
+var Pic = new Array() // don't touch this
+// to add more images, just continue
+// the pattern, adding to the array below
+
+Pic[0] = 'img/Chris.jpg'
+Pic[1] = 'img/chris2.jpg'
+Pic[2] = 'img/chris3.jpg'
+Pic[3] = 'img/chris8.jpg'
+Pic[4] = 'img/chris7.jpg'
+Pic[5] = 'img/chris10.jpg'
+// =======================================
+// do not edit anything below this line
+// =======================================
+
+var t
+var j = 0
+var p = Pic.length
+
+var preLoad = new Array()
+for (i = 0; i < p; i++){
+   preLoad[i] = new Image()
+   preLoad[i].src = Pic[i]
+}
+
+function runSlideShow(){
+   document.images.SlideShow.src = preLoad[j].src
+   j = j + 1
+   if (j > (p-1)) j=0
+   t = setTimeout('runSlideShow()', speed)
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+<!-- THE START OF THE BODY SECTION
+====================================
+++++++++++++++++++++++++++++++++++++  -->
+<!-- NAVBAR - MENU
+================================================== -->
+  <body style="" onload="runSlideShow();" >
+    <div class="navbar-wrapper">
+<div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://www.chrisstanda.com/index.html">Chris Standa</a><br>
+ </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#aboutme">About Me</a></li>
+<li class="#blog"><a href="#blog">Blog</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+                <!--
+<li class="dropdown">
+                  <a href="#dropdown"dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.htm">Action 1</a></li>
+                    <li><a href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.htm">Another action (2)</a></li>
+                    <li><a href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.htm">Something else here (3rd Action)</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.htm">Separated link</a></li>
+                    <li><a href="./Carousel Template for Bootstrap_files/Carousel Template for Bootstrap.htm">One more separated link</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel
+    ================================================== -->
+<br>
+<br>
+<br>
+<br> 
+	    
+<div align="center">
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/aplus.jpg" alt="aplus" title="aplus" id="wows1_0"/></li>
+<li><img src="data1/images/html5.jpg" alt="html5" title="html5" id="wows1_1"/></li>
+<li><img src="data1/images/joomla.jpg" alt="joomla" title="joomla" id="wows1_2"/></li>
+<li><img src="data1/images/mysql.jpg" alt="mysql" title="mysql" id="wows1_3"/></li>
+<li><img src="data1/images/opensource.jpg" alt="opensource" title="opensource" id="wows1_4"/></li>
+<li><img src="data1/images/ruby.jpg" alt="ruby" title="ruby" id="wows1_5"/></li>
+<li><img src="data1/images/seo.jpg" alt="seo" title="seo" id="wows1_6"/></li>
+<li><img src="data1/images/wordpress.jpg" alt="wordpress" title="wordpress" id="wows1_7"/></li>
+<li><img src="data1/images/bootstrap.jpg" alt="bootstrap" title="bootstrap" id="wows1_8"/></li>
+<li><img src="data1/images/googleads.jpg" alt="googleads" title="googleads" id="wows1_9"/></li>
+</ul></div>
+<audio src="engine1/hail_mary_instrumentals__2pac.mp3"></audio>
+<script type="text/javascript" src="engine1/swfobject.js"></script>
+<span class="wsl"><a href="http://wowslider.com">Photo Slideshow</a> by WOWSlider.com v5.2</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+        <!-- /.carousel -->
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+<div class="col-lg-4">
+<!-- Image slide show inside image circle-->
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="img/chris3.jpg" style="width: 140px; height: 140px;" name="SlideShow">
+ <h2>A bit about me</h2>
+          <p>Passionate about politics, technology and family.</p>
+          <p><a class="btn btn-default" href="#aboutme" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        
+<div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="img/bbc-blogs.jpg" style="width: 140px; height: 140px;">
+          <h2>Blog</h2>
+          <p>My interests</p>
+<p><a class="btn btn-default" href="#blog" role="button">View details »</a></p>
+</div><!-- /.col-lg-4 -->
+         <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="img/contactmelogo.png" style="width: 140px; height: 140px;">
+          <h2>Contact Me</h2>
+          <p>Got a project in mind, get intouch here.</p>
+          <p><a class="btn btn-default" href="#contactme" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5">
+<div class="tilt img">
+          <!-- Image slide show inside image circle-->
+ <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="img/chris1.jpg" name="SlideShow">
+        </div></div>
+<!-- ABOUT ME SECTION STARTS HERE-->
+<section id="aboutme">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">About Chris. <span class="text-muted">...in a few words!!</span></h2>
+          <p class="lead">Passionate about technology, politics and family.</p>
+            <p><i><strong>Currently pursuing Computer and Software Engineering</strong></p>
+            <blockquote>Favorite quote:<br>
+              “The intellect has little to do on the road to discovery. There comes a leap in consciousness, call it Intuition or what you will, the solution comes to you and you don't know how or why.” ― Albert Einstein
+            </i></blockquote>
+            <h2>Skills</h2>
+            <p>HTML/CSS, PHP, MySQL, Java, Ruby, Linux, A+, Networking, Google API's</p>
+            <blockquote>"Did you know that the Linux kernel is used to build the Android operating system togther with user interface for touchscreen devices such as mobile smartphones and tablets?"</blockquote>
+            <p>I enjoy the wonders of Linux as an operating system besides "playing around" with code.</p>
+        </div>
+      </div>
+<p class="pull-right"><a href="#">Back to top</a></p>  
+<!-- ABOUT ME SECTION ENDS HERE-->
+</section>
+<hr class="featurette-divider">
+ <!-- BLOG SECTION-->
+      <section id="blog">
+ <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">My intrests <span class="text-muted">...</span></h2>
+          <p class="lead">"Linux is just a kernel and requires other applications such as browsers, e mail clients, etc in order to access resources such as flies and data, networks, running and loading programs, text editors etc. The kernel is the core that enables access to computer hardware and controls access to the various resources."<a href="http://www.linuxfoundation.org/" target="_blank"> Linux Foundation</a></p>
+ <blockquote><h1>What is Autism?</h1>Autism is a complex neurobiological disorder that typically lasts throughout a person’s lifetime. It is part of a group of disorders known as autism spectrum disorders (ASD). Today, 1 in 88 children under 8 years old is diagnosed with autism. It occurs in all racial, ethnic, and social groups and is four times more likely to strike boys than girls.<br>
+ <a href="http://www.autismcenterkenya.or.ke/sarahs-blog.html#.U6BLFJSSx9s" target="_blank"> - Autism Support Center (Kenya)</a></blockquote>
+            <h1>Political philosophy</h1>
+            Reformist<br>
+            "A patriot must always be ready to defend his country against his government" <br>
+            - Edward Paul Abbey, American Writer (29 January 1927 – 14 March 1989) 
+     </div>
+        <div class="col-md-5">
+<div class="morph img">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="img/blog-image.jpg">
+        </div>
+</div>
+      </div>
+<p class="pull-right"><a href="#">Back to top</a></p>
+<!-- END BLOG SECTION-->
+</section>
+<hr class="featurette-divider">
+      <div class="row featurette">
+       
+<!-- CONTACT SECTION STARTS HERE-->
+<section id="contactme">
+<div class="col-md-7">
+          <h2 class="featurette-heading">Got a project in mind?<span class="text-muted">...give me a shout,right here!!</span></h2>
+      <div class="lead"><h1 >Contact Form</h1><br>
+<p>Details marked with * are required</div>	  
+<div id="contact-form">
+
+<?php
+if(isset($_POST['submit']))
+{
+$from = $_POST['Contact Form'];
+$email = $_POST['email'];
+$organization = $_POST['organization'];
+$phone =$_POST['phone'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+$human = intval($_POST['human']);
+
+$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+    
+    if($human !== 5){
+      $errHuman = "Your anit-spam is incorrect";
+    }
+
+     echo "Your message has been sent!";
+    }
+else
+{
+header('location'index.html');
+}
+?>
+
+<form method="post" id="sendmail" action="email.php">
+  <p>From:* <input  type="text" name="from" placeholder="Enter your names" required> 
+    Organization: <input type="text" name="organization" placeholder="Your organization">
+  </p>
+  <p>E mail:* <input type="text" name="email" placeholder="Your E mail" required> 
+    Phone:* <input type="text" name="phone" placeholder="e.g. +254716 983 138">
+  </p>
+  <p>Subject:* <input type="text" name="subject" placeholder="Enter subject line" required>
+  </p>
+  Message:* <br><textarea rows="10" cols="40" name="message" placeholder="Type your message here..." required></textarea><br>
+  <p>
+  <label for="human">2 + 3 = ?</label>
+    <br>
+    <input type="text" name="human" placeholder="Your Answer">
+  </p>
+ <p>
+ <input type="submit" name="submit" value="Send Message"></p>
+ </form>
+ 
+<!-- Mailing list 
+<p>Alternativenly, you can joing my mailing list by filling in your email and phone number below to recieve regular updates on various projects that I am involved in.</p>
+<div id="mailinglist" class"wrapper">
+  <form action="index.html" method="post">
+    <p>Email:* <input name="email" type="email" size="30" placeholder="Your e mail" required/></p>
+    <p>Phone: <input name="phone" type="text" size="30" placeholder="Your phone number" required/></p>
+    <input type="submit" name="submit" value="Join Mailing List" />
+  </form>
+</div> -->
+</div>
+</p>
+</div>
+<div class="col-md-5">
+<div class="color img">
+ <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="img/devices.png">
+</div>
+</div>
+ </div>
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+<!-- CONTACT SECTION ENDS HERE-->
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+ 	<p class="pull-right"><a href="#">Back to top</a></p>
+        <br>© <a href="http://cstanda.github.io/">Chris Standa</a> | All rights reserved |</a> 
+</footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Carousel Template for Bootstrap_files/jquery.min.js"></script>
+    <script src="./Carousel Template for Bootstrap_files/bootstrap.min.js"></script>
+    <script src="./Carousel Template for Bootstrap_files/docs.min.js"></script>
+  
+<!-- SMOOTH EFFECT -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+                $(".contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+            });
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 4500);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 1500);
+           var d = document.createElement("div");
+        d.style.height = "101%";
+        d.style.overflow = "hidden";
+        document.body.appendChild(d);
+        window.scrollTo(0,scrollToM);
+        setTimeout(function() {
+        d.parentNode.removeChild(d);
+            }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+
+</script>
+
+</body></html>
