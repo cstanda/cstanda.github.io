@@ -1,9 +1,15 @@
-HTML{
-    background-color: black;
-    color: orange;
+body{
+    background-color: purple;
 }
+
 .container {
     text-align: center;
+    
+    color: orange;
+
+}
+h1{
+    font-size: 50px ;
 }
 
 /* Chris Standa - Computer & Software Engineer */
