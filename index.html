@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Christopher Standa - Fullstack Developer & Digital Solutions Architect. Explore my portfolio projects, skills, and contact details.">
+        <meta name="keywords" content="Christopher Standa, web developer, fullstack developer, portfolio, Kenya, Nofcas, projects">
+        <meta name="author" content="Christopher Standa">
+        <title>CHRISTOPHER STANDA - PROJECT PORTFOLIO</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li><a href="#contacts" class="nav-link">CONTACTS</a></li>
+      </ul>      
+    </nav>
+    
+    <section id="welcome-section">
+      <h1>CHRISTOPHER STANDA</h1>
+      <p>Fullstack Developer & Digital Solutions Architect</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Christopher Standa, a full-stack developer and serial entrepreneur based in Kenya, with over a decade of experience in software development, digital strategy, and business leadership.</p>
+      <p>At Nofcas, I build fast, secure, and scalable digital solutions tailored for businesses and institutions across Africa. My work ranges from crafting modern, mobile-first websites and applications to setting up robust hosting infrastructures and integrating tools like Google Analytics for data-driven growth.</p>
+      <p>Beyond Nofcas, I’ve successfully launched and managed multiple ventures, including retail and fashion businesses, and built an online trading community focused on cryptocurrency and forex markets. I’m deeply passionate about technology’s role in transforming businesses and communities, and this drives my commitment to continuous learning and innovation.</p>
+      <p>I’m equally invested in empowering people. Through the Digital Skills Academy, I help students and professionals gain practical web development and IT skills to prepare them for modern digital careers.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-tile">
+        <a class="project-link" href="http://www.nofcas.com" target="_blank">
+          <img src="./img/nofcas.com.png">
+          <p><span><span>nofcas.com</span></span></p>
+        </a>
+        <a class="project-link" href="http://blog.nofcas.com" target="_blank">
+          <img src="./img/blog.nofcas.com.png">
+          <p><span><span>blog.nofcas.com</span></span></p>
+        </a>
+        <a class="project-link" href="https://acrossequatoraviators.org/" target="_blank" >
+          <img src="./img/acrossequatoraviators.jpg">
+          <p><span><span>Across Equator Aviators</span></span></p>
+        </a>
+        <a class="project-link" href="https://github.com/cstanda/Karate-Site" target="_blank">
+          <img src="./img/karate-site.jpg">
+          <p><span><span>Shirokaze Do Shotokan</span></span></p>
+        </a>
+        <a class="project-link" href="https://everettstanda.tiiny.site/" target="_blank">
+          <img src="./img/tribute.jpg">
+          <p><span><span>Tribute page</span></span></p>
+        </a>
+        <a class="project-link" href="#" target="_blank">
+          <img src="./img/efxj.jpg">
+          <p><span><span>EFX Journals</span></span></p>
+        </a>
+        <a class="project-link" href="https://cstanda.github.io/Web_Development_101" target="_blank">
+          <img src="./img/webDev101.jpg">
+          <p><span><span>Personal site</span></span></p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <h1>Do you have a project in mind?</h1>
+      <p class="contact-action">Get in touch, lets work together.</p>
+      <div class="socials">
+        <p><a class="social" href="https://github.com/cstanda" target="_blank">Github</a></p>
+        <p><a class="social" href="tel:+254715582521" target="_blank">Call Me</a></p>
+      </div>
+    </section>
+
+    <footer id="footer-contacts">Christopher Standa</footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+    <script>
+      const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          scrollToTopBtn.classList.add('show');
+        } else {
+          scrollToTopBtn.classList.remove('show');
+        }
+      });
+      scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+  </body>
+</html>
